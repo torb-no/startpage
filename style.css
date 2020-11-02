@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    padding: 3px 10px;
+}
+
+nav {
+    float: left;
+    width: 300px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 2;
+}
+
+nav a:hover {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+form {
+    text-align: center;
+    display: none;
+}
+
+form .search__input--adv {
+    width: 99.999%;
+    font-size: 16px;
+}
+
+form .search__button {
+ display: none;
+}
